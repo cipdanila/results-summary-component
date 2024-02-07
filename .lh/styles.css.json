@@ -1,0 +1,438 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 105,
+            "patches": [
+                {
+                    "date": 1706817044132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706817214484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,39 @@\n+@import url(\"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap\");\n+\n+:root {\n+    /* Colors */\n+    /* Primary */\n+    --soft-blue: hsl(215, 51%, 70%); /* paragraph */\n+    --cyan: hsl(178, 100%, 50%); /* active states */\n+    /* Neutrals */\n+    --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n+    --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n+    --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n+    --white: hsl(0, 0%, 100%); /* title */\n+}\n+\n+*, *::after, *::before {\n+    box-sizing: border-box;\n+    margin: 0;\n+    padding: 0;\n+}\n+\n+body, html {\n+    height: 100%;\n+    font-family: \"Outfit\", sans-serif;\n+    font-size: 1.125rem;\n+    font-weight: 300;\n+    background-color: var(--very-dark-blue-main);\n+}\n+\n+main {\n+    display: flex;\n+    justify-content: center;\n+    align-items: center;\n+    height: 100%;\n+}\n+\n .attribution {\n     font-size: 11px;\n     text-align: center;\n }\n"
+                },
+                {
+                    "date": 1706817266116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n :root {\n     /* Colors */\n     /* Primary */\n-    --soft-blue: hsl(215, 51%, 70%); /* paragraph */\n+    --light-red: hsl(0, 100%, 67%); /* paragraph */\n     --cyan: hsl(178, 100%, 50%); /* active states */\n     /* Neutrals */\n     --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n     --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n"
+                },
+                {
+                    "date": 1706817283463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n :root {\n     /* Colors */\n     /* Primary */\n     --light-red: hsl(0, 100%, 67%); /* paragraph */\n-    --cyan: hsl(178, 100%, 50%); /* active states */\n+    --cyan: hsl(39, 100%, 56%); /* active states */\n     /* Neutrals */\n     --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n     --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n     --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n"
+                },
+                {
+                    "date": 1706817299623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n :root {\n     /* Colors */\n     /* Primary */\n     --light-red: hsl(0, 100%, 67%); /* paragraph */\n-    --cyan: hsl(39, 100%, 56%); /* active states */\n+    --orange-yellow: hsl(39, 100%, 56%); /* active states */\n     /* Neutrals */\n     --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n     --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n     --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n"
+                },
+                {
+                    "date": 1706817313857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,11 @@\n \n :root {\n     /* Colors */\n     /* Primary */\n-    --light-red: hsl(0, 100%, 67%); /* paragraph */\n-    --orange-yellow: hsl(39, 100%, 56%); /* active states */\n+    --light-red: hsl(0, 100%, 67%);\n+    --orange-yellow: hsl(39, 100%, 56%);\n+    --orange-yellow: hsl(39, 100%, 56%);\n     /* Neutrals */\n     --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n     --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n     --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n"
+                },
+                {
+                    "date": 1706817333656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     /* Colors */\n     /* Primary */\n     --light-red: hsl(0, 100%, 67%);\n     --orange-yellow: hsl(39, 100%, 56%);\n-    --orange-yellow: hsl(39, 100%, 56%);\n+    --green-teal: hsl(166, 100%, 37%);\n     /* Neutrals */\n     --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n     --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n     --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n"
+                },
+                {
+                    "date": 1706817363344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     /* Primary */\n     --light-red: hsl(0, 100%, 67%);\n     --orange-yellow: hsl(39, 100%, 56%);\n     --green-teal: hsl(166, 100%, 37%);\n+    --cobalt-blue: hsl(234, 85%, 45%);\n     /* Neutrals */\n     --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n     --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n     --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n"
+                },
+                {
+                    "date": 1706817466400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,13 +6,23 @@\n     --light-red: hsl(0, 100%, 67%);\n     --orange-yellow: hsl(39, 100%, 56%);\n     --green-teal: hsl(166, 100%, 37%);\n     --cobalt-blue: hsl(234, 85%, 45%);\n-    /* Neutrals */\n-    --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */\n-    --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */\n-    --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */\n-    --white: hsl(0, 0%, 100%); /* title */\n+    /* Gradients */\n+    --light-slate-blue: hsl(252, 100%, 67%);    /*  (background) */\n+    --light-royal-blue: hsl(241, 81%, 54%);    /* (background) */\n+\n+- Violet blue (circle): hsla(256, 72%, 46%, 1)\n+- Persian blue (circle): hsla(241, 72%, 46%, 0)\n+\n+\n+\n+### Neutral\n+\n+- White: hsl(0, 0%, 100%)\n+- Pale blue: hsl(221, 100%, 96%)\n+- Light lavender: hsl(241, 100%, 89%)\n+- Dark gray blue: hsl(224, 30%, 27%)\n }\n \n *, *::after, *::before {\n     box-sizing: border-box;\n"
+                },
+                {
+                    "date": 1706817675188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,19 +10,15 @@\n     /* Gradients */\n     --light-slate-blue: hsl(252, 100%, 67%);    /*  (background) */\n     --light-royal-blue: hsl(241, 81%, 54%);    /* (background) */\n \n-- Violet blue (circle): hsla(256, 72%, 46%, 1)\n-- Persian blue (circle): hsla(241, 72%, 46%, 0)\n-\n-\n-\n-### Neutral\n-\n-- White: hsl(0, 0%, 100%)\n-- Pale blue: hsl(221, 100%, 96%)\n-- Light lavender: hsl(241, 100%, 89%)\n-- Dark gray blue: hsl(224, 30%, 27%)\n+    --violet-blue: hsla(256, 72%, 46%, 1); /* (circle) */\n+    --persian-blue: hsla(241, 72%, 46%, 0);    /* (circle) */\n+    /* Neutral */\n+    --white: hsl(0, 0%, 100%);\n+    --pale-blue: hsl(221, 100%, 96%);\n+    --light-lavender: hsl(241, 100%, 89%);\n+    --dark-gray-blue: hsl(224, 30%, 27%);\n }\n \n *, *::after, *::before {\n     box-sizing: border-box;\n"
+                },
+                {
+                    "date": 1706817737341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n \n body, html {\n     height: 100%;\n     font-family: \"Outfit\", sans-serif;\n-    font-size: 1.125rem;\n+    font-size: 1.125rem;                /* 18px */\n     font-weight: 300;\n     background-color: var(--very-dark-blue-main);\n }\n \n"
+                },
+                {
+                    "date": 1706817795530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import url(\"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap\");\n+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');\n \n :root {\n     /* Colors */\n     /* Primary */\n"
+                },
+                {
+                    "date": 1706817949034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n     height: 100%;\n     font-family: \"Outfit\", sans-serif;\n     font-size: 1.125rem;                /* 18px */\n     font-weight: 300;\n-    background-color: var(--very-dark-blue-main);\n+    background-color: var(--white);\n }\n \n main {\n     display: flex;\n"
+                },
+                {
+                    "date": 1706818775045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n }\n \n body, html {\n     height: 100%;\n-    font-family: \"Outfit\", sans-serif;\n+    font-family: \"Hanken\", sans-serif;\n     font-size: 1.125rem;                /* 18px */\n     font-weight: 300;\n     background-color: var(--white);\n }\n"
+                },
+                {
+                    "date": 1706818787034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n }\n \n body, html {\n     height: 100%;\n-    font-family: \"Hanken\", sans-serif;\n+    font-family: \"Hanken Grotesk\", sans-serif;\n     font-size: 1.125rem;                /* 18px */\n     font-weight: 300;\n     background-color: var(--white);\n }\n"
+                },
+                {
+                    "date": 1706818839004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,12 @@\n     align-items: center;\n     height: 100%;\n }\n \n+.card {\n+    \n+}\n+\n .attribution {\n     font-size: 11px;\n     text-align: center;\n }\n"
+                },
+                {
+                    "date": 1706818851090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');\n+@import url(\"https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap\");\n \n :root {\n     /* Colors */\n     /* Primary */\n@@ -7,30 +7,33 @@\n     --orange-yellow: hsl(39, 100%, 56%);\n     --green-teal: hsl(166, 100%, 37%);\n     --cobalt-blue: hsl(234, 85%, 45%);\n     /* Gradients */\n-    --light-slate-blue: hsl(252, 100%, 67%);    /*  (background) */\n-    --light-royal-blue: hsl(241, 81%, 54%);    /* (background) */\n+    --light-slate-blue: hsl(252, 100%, 67%); /*  (background) */\n+    --light-royal-blue: hsl(241, 81%, 54%); /* (background) */\n \n     --violet-blue: hsla(256, 72%, 46%, 1); /* (circle) */\n-    --persian-blue: hsla(241, 72%, 46%, 0);    /* (circle) */\n+    --persian-blue: hsla(241, 72%, 46%, 0); /* (circle) */\n     /* Neutral */\n     --white: hsl(0, 0%, 100%);\n     --pale-blue: hsl(221, 100%, 96%);\n     --light-lavender: hsl(241, 100%, 89%);\n     --dark-gray-blue: hsl(224, 30%, 27%);\n }\n \n-*, *::after, *::before {\n+*,\n+*::after,\n+*::before {\n     box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n }\n \n-body, html {\n+body,\n+html {\n     height: 100%;\n     font-family: \"Hanken Grotesk\", sans-serif;\n-    font-size: 1.125rem;                /* 18px */\n+    font-size: 1.125rem; /* 18px */\n     font-weight: 300;\n     background-color: var(--white);\n }\n \n@@ -41,9 +44,14 @@\n     height: 100%;\n }\n \n .card {\n-    \n+    min-width: 600px;\n+    width: 30%;\n+    display: flex;\n+    margin: 4rem auto;\n+    background-color: var(--white);\n+    border-radius: 0.625rem;\n }\n \n .attribution {\n     font-size: 11px;\n"
+                },
+                {
+                    "date": 1706818864325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     height: 100%;\n }\n \n .card {\n-    min-width: 600px;\n+    max-width: 375px;\n     width: 30%;\n     display: flex;\n     margin: 4rem auto;\n     background-color: var(--white);\n"
+                },
+                {
+                    "date": 1706818894978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,13 +45,15 @@\n }\n \n .card {\n     max-width: 375px;\n-    width: 30%;\n+    border-radius: 1rem;\n+    box-shadow: 0.5rem 0.5rem rgb(rgb(12, 23, 41));\n     display: flex;\n-    margin: 4rem auto;\n-    background-color: var(--white);\n-    border-radius: 0.625rem;\n+    flex-direction: column;\n+    justify-content: center;\n+    align-items: center;\n+    background-color: var(--very-dark-blue-card);\n }\n \n .attribution {\n     font-size: 11px;\n"
+                },
+                {
+                    "date": 1706818971911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     align-items: center;\n-    background-color: var(--very-dark-blue-card);\n+    background-color: var(--light-royal-blue);\n }\n \n .attribution {\n     font-size: 11px;\n"
+                },
+                {
+                    "date": 1706818981864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     align-items: center;\n-    background-color: var(--light-royal-blue);\n+    background-color: var(--white);\n }\n \n .attribution {\n     font-size: 11px;\n"
+                },
+                {
+                    "date": 1706905584315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,16 +46,145 @@\n \n .card {\n     max-width: 375px;\n     border-radius: 1rem;\n-    box-shadow: 0.5rem 0.5rem rgb(rgb(12, 23, 41));\n+    box-shadow: 0 4px 8px 0 var(--pale-blue);\n     display: flex;\n-    flex-direction: column;\n     justify-content: center;\n     align-items: center;\n     background-color: var(--white);\n }\n \n+.result {\n+    width: 50%;\n+    display: flex;\n+    flex-direction: column;\n+    justify-content: center;\n+    align-items: center;\n+    background: linear-gradient(to bottom, var(--light-slate-blue) 0%, var(--light-royal-blue) 100%);\n+    color: var(--white);\n+    border-radius: 1rem;\n+}\n+\n+.result #result-title {\n+    padding: 1.25rem;\n+    font-weight: 800;\n+    font-size: 0.75rem;\n+}\n+\n+.score-circle {\n+    width: 120px;\n+    height: 120px;\n+    border-radius: 50%;\n+    background: linear-gradient(to bottom, var(--cobalt-blue) 0%, var(--persian-blue) 100%);\n+    display: flex;\n+    flex-direction: column;\n+    justify-content: center;\n+    align-items: center;\n+}\n+\n+.big-num {\n+    font-size: 2.5rem;\n+    font-weight: 800;\n+}\n+\n+.small-text {\n+    font-size: 0.625rem;\n+    color: var(--light-lavender);\n+}\n+\n+.result h4 {\n+    padding-top: 1rem;\n+}\n+\n+.result p {\n+    font-size: 0.625rem;\n+    color: var(--light-lavender);\n+    padding: 0.875rem;\n+    text-align: center;\n+}\n+\n+.summary {\n+    width: 50%;\n+    height: auto;\n+    display: flex;\n+    flex-direction: column;\n+    justify-content: center;\n+    padding: 1.125rem;\n+    font-weight: 800;\n+}\n+\n+.summary p#summary {\n+    padding: 1rem 0;\n+    font-size: 0.75rem;\n+    font-weight: 800;\n+    color: var(--dark-gray-blue);\n+}\n+\n+.summary div {\n+    width: 100%;\n+    padding: 0.625rem 0;\n+    font-size: 0.625rem;\n+    margin: 0.313rem 0;\n+    display: flex;\n+    justify-content: space-between;\n+}\n+\n+.summary .percent {\n+    color: var(--dark-gray-blue);\n+}\n+\n+.summary .hundred {\n+    color: var(--light-lavender);\n+}\n+\n+.summary .reaction {\n+    background-color: rgba(255, 51, 51, 0.1);\n+    color: var(--light-red);\n+    border-radius: 0.375rem;\n+    padding: 0.625rem;\n+    margin: 0.313rem 0;\n+}\n+\n+.summary .memory {\n+    background-color: rgba(255, 187, 51, 0.1);\n+    color: var(--orange-yellow);\n+    border-radius: 0.375rem;\n+    padding: 0.5rem;\n+    margin: 0.313rem 0;\n+}\n+\n+.summary .verbal {\n+    background-color: rgba(51, 187, 102, 0.1);\n+    color: var(--green-teal);\n+    border-radius: 0.375rem;\n+    padding: 0.5rem;\n+    margin: 0.313rem 0;\n+}\n+\n+.summary .visual {\n+    background-color: rgba(51, 102, 187, 0.1);\n+    color: var(--cobalt-blue);\n+    border-radius: 0.375rem;\n+    padding: 0.5rem;\n+    margin: 0.313rem 0;\n+}\n+\n+button {\n+    width: 100%;\n+    padding: 0.5rem;\n+    margin: 1rem auto;\n+    display: flex;\n+    justify-content: center;\n+    align-items: center;\n+    color: var(--white);\n+    background-color: var(--dark-gray-blue);\n+    font-weight: 700;\n+    border-radius: 1rem;\n+    border: none;\n+    cursor: pointer;\n+}\n+\n .attribution {\n     font-size: 11px;\n     text-align: center;\n }\n"
+                },
+                {
+                    "date": 1706905592585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -140,10 +140,8 @@\n .summary .reaction {\n     background-color: rgba(255, 51, 51, 0.1);\n     color: var(--light-red);\n     border-radius: 0.375rem;\n-    padding: 0.625rem;\n-    margin: 0.313rem 0;\n }\n \n .summary .memory {\n     background-color: rgba(255, 187, 51, 0.1);\n"
+                },
+                {
+                    "date": 1706905600686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,8 @@\n .summary div {\n     width: 100%;\n     padding: 0.625rem 0;\n     font-size: 0.625rem;\n-    margin: 0.313rem 0;\n     display: flex;\n     justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706905608376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n }\n \n .summary div {\n     width: 100%;\n-    padding: 0.625rem 0;\n+    padding: 0.625rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n }\n"
+                },
+                {
+                    "date": 1706905639733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,26 +145,20 @@\n .summary .memory {\n     background-color: rgba(255, 187, 51, 0.1);\n     color: var(--orange-yellow);\n     border-radius: 0.375rem;\n-    padding: 0.5rem;\n-    margin: 0.313rem 0;\n }\n \n .summary .verbal {\n     background-color: rgba(51, 187, 102, 0.1);\n     color: var(--green-teal);\n     border-radius: 0.375rem;\n-    padding: 0.5rem;\n-    margin: 0.313rem 0;\n }\n \n .summary .visual {\n     background-color: rgba(51, 102, 187, 0.1);\n     color: var(--cobalt-blue);\n     border-radius: 0.375rem;\n-    padding: 0.5rem;\n-    margin: 0.313rem 0;\n }\n \n button {\n     width: 100%;\n"
+                },
+                {
+                    "date": 1706905655754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n \n .summary .reaction {\n     background-color: rgba(255, 51, 51, 0.1);\n     color: var(--light-red);\n-    border-radius: 0.375rem;\n+    \n }\n \n .summary .memory {\n     background-color: rgba(255, 187, 51, 0.1);\n"
+                },
+                {
+                    "date": 1706905661800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,8 +125,9 @@\n     padding: 0.625rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n+    border-radius: 0.375rem;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706905677592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,21 +139,18 @@\n \n .summary .reaction {\n     background-color: rgba(255, 51, 51, 0.1);\n     color: var(--light-red);\n-    \n }\n \n .summary .memory {\n     background-color: rgba(255, 187, 51, 0.1);\n     color: var(--orange-yellow);\n-    border-radius: 0.375rem;\n }\n \n .summary .verbal {\n     background-color: rgba(51, 187, 102, 0.1);\n     color: var(--green-teal);\n-    border-radius: 0.375rem;\n }\n \n .summary .visual {\n     background-color: rgba(51, 102, 187, 0.1);\n"
+                },
+                {
+                    "date": 1706905700978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n }\n \n .summary div {\n     width: 100%;\n-    padding: 0.625rem;\n+    padding: 0.5rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706905735660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n }\n \n .summary div {\n     width: 100%;\n-    padding: 0.5rem;\n+    padding: 0.313rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706905753845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,8 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.313rem;\n+    margin: auto;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706905767583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.313rem;\n-    margin: auto;\n+    margin: 0.313rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706905790564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.313rem;\n-    margin: 0.313rem;\n+    margin: 0.375rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706905802723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.313rem;\n-    margin: 0.375rem;\n+    margin: 0.313rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706906129635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,8 +129,12 @@\n     justify-content: space-between;\n     border-radius: 0.375rem;\n }\n \n+.summary div img {\n+    \n+}\n+\n .summary .percent {\n     color: var(--dark-gray-blue);\n }\n \n"
+                },
+                {
+                    "date": 1706906138410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     border-radius: 0.375rem;\n }\n \n .summary div img {\n-    \n+    margin-left: ;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906155605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     border-radius: 0.375rem;\n }\n \n .summary div img {\n-    margin-left: ;\n+    margin-left: 0.313rem;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906163373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     border-radius: 0.375rem;\n }\n \n .summary div img {\n-    margin-left: 0.313rem;\n+    margin-right: 0.313rem;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906182696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,8 +131,9 @@\n }\n \n .summary div img {\n     margin-right: 0.313rem;\n+    font-size: smaller;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906303276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n }\n \n .summary div img {\n     margin-right: 0.313rem;\n-    font-size: smaller;\n+    width: auto;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906313397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n }\n \n .summary div img {\n     margin-right: 0.313rem;\n-    width: auto;\n+    width: 5px;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906323965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n }\n \n .summary div img {\n     margin-right: 0.313rem;\n-    width: 5px;\n+    width: 12px;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906493957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,10 +121,10 @@\n }\n \n .summary div {\n     width: 100%;\n-    padding: 0.313rem;\n-    margin: 0.313rem;\n+    padding: 0.5rem;\n+    margin: 0.188rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706906516351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.5rem;\n-    margin: 0.188rem;\n+    margin: 0.2rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706906524972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.5rem;\n-    margin: 0.2rem;\n+    margin: 0.25rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706906546997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n \n .summary div {\n     width: 100%;\n     padding: 0.5rem;\n-    margin: 0.25rem;\n+    margin: 0.313rem;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n     border-radius: 0.375rem;\n"
+                },
+                {
+                    "date": 1706906708909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,8 +134,10 @@\n     margin-right: 0.313rem;\n     width: 12px;\n }\n \n+.summary div p {}\n+\n .summary .percent {\n     color: var(--dark-gray-blue);\n }\n \n"
+                },
+                {
+                    "date": 1706906725666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,12 @@\n     margin-right: 0.313rem;\n     width: 12px;\n }\n \n-.summary div p {}\n+.summary div p {\n+    display: flex;\n+    justify-content: space-between;\n+}\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n }\n"
+                },
+                {
+                    "date": 1706906736280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n     padding: 0.5rem;\n     margin: 0.313rem;\n     font-size: 0.625rem;\n     display: flex;\n-    justify-content: space-between;\n+    /* justify-content: space-between; */\n     border-radius: 0.375rem;\n }\n \n .summary div img {\n"
+                },
+                {
+                    "date": 1706906825575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,8 +139,13 @@\n     display: flex;\n     justify-content: space-between;\n }\n \n+.summary span {\n+    display: flex;\n+    justify-content: end;\n+}\n+\n .summary .percent {\n     color: var(--dark-gray-blue);\n }\n \n"
+                },
+                {
+                    "date": 1706906831363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,8 +142,9 @@\n \n .summary span {\n     display: flex;\n     justify-content: end;\n+    text-align: end;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906843651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,9 +141,9 @@\n }\n \n .summary span {\n     display: flex;\n-    justify-content: end;\n+    justify-content: space-evenly;\n     text-align: end;\n }\n \n .summary .percent {\n"
+                },
+                {
+                    "date": 1706906885279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,9 +141,10 @@\n }\n \n .summary span {\n     display: flex;\n-    justify-content: space-evenly;\n+    gap: 10px;\n+    justify-content: space-between;\n     text-align: end;\n }\n \n .summary .percent {\n"
+                },
+                {
+                    "date": 1706906891065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,9 +141,9 @@\n }\n \n .summary span {\n     display: flex;\n-    gap: 10px;\n+    gap: 30px;\n     justify-content: space-between;\n     text-align: end;\n }\n \n"
+                },
+                {
+                    "date": 1706906955773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,11 +141,8 @@\n }\n \n .summary span {\n     display: flex;\n-    gap: 30px;\n-    justify-content: space-between;\n-    text-align: end;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706906963308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,8 +141,9 @@\n }\n \n .summary span {\n     display: flex;\n+    align-items: center;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706907008164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,8 +136,9 @@\n }\n \n .summary div p {\n     display: flex;\n+    align-items: center;\n     justify-content: space-between;\n }\n \n .summary span {\n"
+                },
+                {
+                    "date": 1706907018269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n \n .summary div p {\n     display: flex;\n     align-items: center;\n-    justify-content: space-between;\n+    /* justify-content: space-between; */\n }\n \n .summary span {\n     display: flex;\n"
+                },
+                {
+                    "date": 1706907041211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n     padding: 0.5rem;\n     margin: 0.313rem;\n     font-size: 0.625rem;\n     display: flex;\n-    /* justify-content: space-between; */\n+    justify-content: space-between;\n     border-radius: 0.375rem;\n }\n \n .summary div img {\n@@ -136,9 +136,9 @@\n }\n \n .summary div p {\n     display: flex;\n-    align-items: center;\n+    align-items: right;\n     /* justify-content: space-between; */\n }\n \n .summary span {\n"
+                },
+                {
+                    "date": 1706907050309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n }\n \n .summary span {\n     display: flex;\n-    align-items: center;\n+    align-items: left;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706907060231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -136,15 +136,15 @@\n }\n \n .summary div p {\n     display: flex;\n-    align-items: right;\n+    align-items: center;\n     /* justify-content: space-between; */\n }\n \n .summary span {\n     display: flex;\n-    align-items: left;\n+    align-items: center;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1706907067817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,8 @@\n \n .summary div p {\n     display: flex;\n     align-items: center;\n-    /* justify-content: space-between; */\n }\n \n .summary span {\n     display: flex;\n"
+                },
+                {
+                    "date": 1706907079138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,8 +137,9 @@\n \n .summary div p {\n     display: flex;\n     align-items: center;\n+    justify-content: flex-start;\n }\n \n .summary span {\n     display: flex;\n"
+                },
+                {
+                    "date": 1706907086235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,8 @@\n \n .summary div p {\n     display: flex;\n     align-items: center;\n-    justify-content: flex-start;\n }\n \n .summary span {\n     display: flex;\n"
+                },
+                {
+                    "date": 1707164229454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,13 +22,16 @@\n \n *,\n *::after,\n *::before {\n-    box-sizing: border-box;\n     margin: 0;\n     padding: 0;\n }\n \n+* {\n+    box-sizing: border-box;\n+}\n+\n body,\n html {\n     height: 100%;\n     font-family: \"Hanken Grotesk\", sans-serif;\n@@ -64,14 +67,18 @@\n     color: var(--white);\n     border-radius: 1rem;\n }\n \n-.result #result-title {\n+.title {\n     padding: 1.25rem;\n     font-weight: 800;\n     font-size: 0.75rem;\n }\n \n+.result .title {\n+    color: var(--light-lavender);\n+}\n+\n .score-circle {\n     width: 120px;\n     height: 120px;\n     border-radius: 50%;\n@@ -108,26 +115,27 @@\n     height: auto;\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n-    padding: 1.125rem;\n+    padding: 1rem 0.875rem 0 0.875rem;\n     font-weight: 800;\n }\n \n-.summary p#summary {\n-    padding: 1rem 0;\n+.summary .title {\n+    padding: 0 0 1rem 0;\n     font-size: 0.75rem;\n     font-weight: 800;\n     color: var(--dark-gray-blue);\n }\n \n .summary div {\n     width: 100%;\n     padding: 0.5rem;\n-    margin: 0.313rem;\n+    margin: 0.25rem 0;\n     font-size: 0.625rem;\n     display: flex;\n     justify-content: space-between;\n+    align-items: center;\n     border-radius: 0.375rem;\n }\n \n .summary div img {\n@@ -136,14 +144,15 @@\n }\n \n .summary div p {\n     display: flex;\n+    justify-content: flex-start;\n     align-items: center;\n+    padding-right: 2rem;\n }\n \n-.summary span {\n-    display: flex;\n-    align-items: center;\n+.summary div span {\n+    margin-left: auto;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n@@ -182,17 +191,23 @@\n     justify-content: center;\n     align-items: center;\n     color: var(--white);\n     background-color: var(--dark-gray-blue);\n+    font-size: 0.625rem;\n     font-weight: 700;\n     border-radius: 1rem;\n     border: none;\n     cursor: pointer;\n }\n \n+button:hover {\n+    background: linear-gradient(to bottom, var(--light-slate-blue) 0%, var(--light-royal-blue) 100%);\n+}\n+\n .attribution {\n     font-size: 11px;\n     text-align: center;\n }\n+\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n"
+                },
+                {
+                    "date": 1707164236132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,12 +24,13 @@\n *::after,\n *::before {\n     margin: 0;\n     padding: 0;\n+    box-sizing: border-box;\n }\n \n * {\n-    box-sizing: border-box;\n+\n }\n \n body,\n html {\n"
+                },
+                {
+                    "date": 1707164252831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,12 +27,8 @@\n     padding: 0;\n     box-sizing: border-box;\n }\n \n-* {\n-\n-}\n-\n body,\n html {\n     height: 100%;\n     font-family: \"Hanken Grotesk\", sans-serif;\n"
+                },
+                {
+                    "date": 1707164330670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,4 +207,6 @@\n \n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n+\n+@\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164340225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,5 +208,5 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@\n\\ No newline at end of file\n+@media(min-width:600px)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164368410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,5 +208,7 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@media(min-width:600px)\n\\ No newline at end of file\n+@media(min-width:600px) {\n+    body {}\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164378201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,6 +209,8 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media(min-width:600px) {\n-    body {}\n+    body {\n+        min-height: 100vh;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164384484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -211,6 +211,7 @@\n \n @media(min-width:600px) {\n     body {\n         min-height: 100vh;\n+        display: grid;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164393180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -212,6 +212,7 @@\n @media(min-width:600px) {\n     body {\n         min-height: 100vh;\n         display: grid;\n+        place-items: center;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164423262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,9 +208,9 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@media(min-width:600px) {\n+@media(max-width:600px) {\n     body {\n         min-height: 100vh;\n         display: grid;\n         place-items: center;\n"
+                },
+                {
+                    "date": 1707164431247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,9 +208,9 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@media(max-width:600px) {\n+@media(max-width:375px) {\n     body {\n         min-height: 100vh;\n         display: grid;\n         place-items: center;\n"
+                },
+                {
+                    "date": 1707164450520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,9 +208,9 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@media(max-width:375px) {\n+@media(max-width:600px) {\n     body {\n         min-height: 100vh;\n         display: grid;\n         place-items: center;\n"
+                },
+                {
+                    "date": 1707164464913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,9 +209,9 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media(max-width:600px) {\n-    body {\n+    main {\n         min-height: 100vh;\n         display: grid;\n         place-items: center;\n     }\n"
+                },
+                {
+                    "date": 1707164475005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,9 +209,9 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media(max-width:600px) {\n-    main {\n+    .card {\n         min-height: 100vh;\n         display: grid;\n         place-items: center;\n     }\n"
+                },
+                {
+                    "date": 1707164511748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,9 +208,9 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@media(max-width:600px) {\n+@media(max-width:375px) {\n     .card {\n         min-height: 100vh;\n         display: grid;\n         place-items: center;\n"
+                },
+                {
+                    "date": 1707164557479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -211,8 +211,8 @@\n \n @media(max-width:375px) {\n     .card {\n         min-height: 100vh;\n-        display: grid;\n-        place-items: center;\n+        display: flex;\n+        flex-direction: column;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164564693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,6 +213,7 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n+        width: 100%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164575166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,7 +213,6 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n-        width: 100%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164605758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,5 +214,9 @@\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n     }\n+\n+    .result {\n+        width: auto;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164613424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,7 +216,7 @@\n         flex-direction: column;\n     }\n \n     .result {\n-        width: auto;\n+        width: 100%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164642179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,8 +213,10 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n+        margin: 0;\n+        padding: 0;\n     }\n \n     .result {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707164652074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,8 +215,9 @@\n         display: flex;\n         flex-direction: column;\n         margin: 0;\n         padding: 0;\n+        box-sizing: border-box;\n     }\n \n     .result {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707164666461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,11 +213,8 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n-        margin: 0;\n-        padding: 0;\n-        box-sizing: border-box;\n     }\n \n     .result {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707164687361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n }\n \n @media(max-width:375px) {\n     .card {\n-        min-height: 100vh;\n+        /* min-height: 100vh; */\n         display: flex;\n         flex-direction: column;\n     }\n \n"
+                },
+                {
+                    "date": 1707164748660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,10 +209,14 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media(max-width:375px) {\n+    body {\n+        margin: 0;\n+        padding: 0;\n+    }\n     .card {\n-        /* min-height: 100vh; */\n+        min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n     }\n \n"
+                },
+                {
+                    "date": 1707164755049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,9 +209,9 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media(max-width:375px) {\n-    body {\n+    * {\n         margin: 0;\n         padding: 0;\n     }\n     .card {\n"
+                },
+                {
+                    "date": 1707164780815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,12 +209,8 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media(max-width:375px) {\n-    * {\n-        margin: 0;\n-        padding: 0;\n-    }\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n"
+                },
+                {
+                    "date": 1707164823314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,5 +218,7 @@\n \n     .result {\n         width: 100%;\n     }\n+\n+    .\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707164838720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,6 +219,8 @@\n     .result {\n         width: 100%;\n     }\n \n-    .\n+    .summary {\n+        width: 100%;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707165341803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,8 +213,9 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n+        overflow: hidden;\n     }\n \n     .result {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707165351353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,8 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n-        overflow: hidden;\n     }\n \n     .result {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707165487239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,8 +217,9 @@\n     }\n \n     .result {\n         width: 100%;\n+        border-radius: 0 0 ;\n     }\n \n     .summary {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707165494349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,9 +217,9 @@\n     }\n \n     .result {\n         width: 100%;\n-        border-radius: 0 0 ;\n+        border-radius: 0 0;\n     }\n \n     .summary {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707165501539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,13 +213,13 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n+        border-radius: 0 0;\n     }\n \n     .result {\n         width: 100%;\n-        border-radius: 0 0;\n     }\n \n     .summary {\n         width: 100%;\n"
+                },
+                {
+                    "date": 1707165522101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,12 +213,12 @@\n     .card {\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n-        border-radius: 0 0;\n     }\n-\n+    \n     .result {\n+        border-radius: 0 0;\n         width: 100%;\n     }\n \n     .summary {\n"
+                },
+                {
+                    "date": 1707165545492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,11 +214,10 @@\n         min-height: 100vh;\n         display: flex;\n         flex-direction: column;\n     }\n-    \n+\n     .result {\n-        border-radius: 0 0;\n         width: 100%;\n     }\n \n     .summary {\n"
+                },
+                {
+                    "date": 1707165704907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n main {\n     display: flex;\n     justify-content: center;\n     align-items: center;\n-    height: 100%;\n+    min-height: 100%;\n }\n \n .card {\n     max-width: 375px;\n"
+                },
+                {
+                    "date": 1707165718040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n main {\n     display: flex;\n     justify-content: center;\n     align-items: center;\n-    min-height: 100%;\n+    height: 100%;\n }\n \n .card {\n     max-width: 375px;\n"
+                },
+                {
+                    "date": 1707165978767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,8 +148,9 @@\n }\n \n .summary div span {\n     margin-left: auto;\n+    padding: auto;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1707166072391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,8 @@\n }\n \n .summary div span {\n     margin-left: auto;\n-    padding: auto;\n }\n \n .summary .percent {\n     color: var(--dark-gray-blue);\n"
+                },
+                {
+                    "date": 1707166298271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -176,9 +176,8 @@\n \n .summary .visual {\n     background-color: rgba(51, 102, 187, 0.1);\n     color: var(--cobalt-blue);\n-    border-radius: 0.375rem;\n }\n \n button {\n     width: 100%;\n"
+                }
+            ],
+            "date": 1706817044132,
+            "name": "Commit-0",
+            "content": ".attribution {\n    font-size: 11px;\n    text-align: center;\n}\n.attribution a {\n    color: hsl(228, 45%, 44%);\n}\n"
+        }
+    ]
+}
